@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Una cartita 💌</title>
+  <title>Una cartita </title>
 
   <style>
     * {
@@ -126,14 +126,14 @@
 
       <div class="carta">
         <div class="mensaje">
-          hola mundo! JSJSJJS 💗
+          hola mundo! JSJSJJS 
         </div>
       </div>
 
     </div>
 
     <div class="texto" id="texto">
-      💌 Haz clic en el sobre para abrir la carta
+       Haz clic en el sobre para abrir la carta
     </div>
 
   </div>
@@ -146,9 +146,9 @@
       sobre.classList.toggle("abierto");
 
       if (sobre.classList.contains("abierto")) {
-        texto.textContent = "💖 ¡Carta abierta!";
+        texto.textContent = " ¡Carta abierta!";
       } else {
-        texto.textContent = "💌 Haz clic en el sobre para abrir la carta";
+        texto.textContent = " Haz clic en el sobre para abrir la carta";
       }
     }
   </script>
